@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IREPS - Login</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="login.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <div class="header">
+    <div class="header-left">
+      <!-- Indian Railways Logo -->
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Indian_Railways.svg" 
+           alt="Indian Railways Logo" class="logo">
+
+      <!-- Text -->
+      <div class="header-text">
+        <span class="gem">GeM - Government eMarketplace</span><br>
+        <span class="ireps">Indian Railways E-Procurement System</span><br>
+        <span class="module">User Depot Module</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Login Box -->
+  <div class="login-box" id="login-box">
+    <h3>Authenticate Yourself</h3>
+    <p>(For Consignee Stores Users)</p>
+    <input type="text" id="userid" placeholder="User Name"><br>
+    <input type="password" id="password" placeholder="Password"><br>
+    <button onclick="fakeLogin()">Login</button>
+    <button onclick="location.href='index.html'">Home</button>
+    <p class="warning">User Name and Password are Case Sensitive</p>
+    <p class="info">For security reason we have logged your system IP.</p>
+  </div>
+
+  <!-- Extra Links -->
+  <div class="extras">
+    <div>
+      <h4>Change your Password</h4>
+      <a href="#">Click Here To Reset Password Using DSC</a>
+    </div>
+    <div>
+      <h4>Change your Signing Certificate</h4>
+      <a href="#">Click Here To Change your Signing Certificate</a>
+    </div>
+  </div>
+</body>
+</html>
