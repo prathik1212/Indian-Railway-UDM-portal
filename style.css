@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.header {
+  background: #0d1b2a;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+}
+
+.header-text {
+  line-height: 1.3;
+}
+
+.gem { font-size: 14px; color: #fff; }
+.ireps { font-size: 18px; font-weight: bold; color: #ffd700; }
+.module { font-size: 12px; color: #ddd; }
+
+.login-box {
+  border: 1px solid #ccc;
+  width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.login-box input {
+  width: 90%;
+  padding: 8px;
+  margin: 10px 0;
+}
+
+.login-box button {
+  padding: 8px 15px;
+  margin: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-box button:first-of-type {
+  background: #1d4ed8;
+  color: white;
+}
+
+.login-box button:last-of-type {
+  background: #f3f4f6;
+  color: #b91c1c;
+}
+
+.warning {
+  color: red;
+  font-size: 12px;
+}
+
+.info {
+  font-size: 12px;
+  color: #555;
+}
+
+.extras {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  width: 90%;
+}
+
+.extras div {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 40%;
+  margin: 0 10px;
+  text-align: left;
+}
+
+.extras h4 {
+  margin: 0 0 10px 0;
+}
+
+.extras a {
+  color: blue;
+  text-decoration: none;
+}
